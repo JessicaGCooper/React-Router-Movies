@@ -44,7 +44,7 @@ function MovieDetails({ movie }) {
 
   return (
     <Link to={`/movies/${id}`} >
-      <MovieCard  title={title} director={director} metascore={metascore} stars={stars}/>
+      <MovieCard  title={title} director={director} metascore={metascore} stars={stars} />
     </Link>
   );
 }
